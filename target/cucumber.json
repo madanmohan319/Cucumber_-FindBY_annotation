@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-07T11:50:43.483Z",
+        "line": 16,
+        "name": "Enter the education form",
+        "description": "",
+        "id": "login-functionality-test;enter-the-education-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8092752000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "First start page",
+            "match": {
+              "location": "steps.Pages.i_am_on_start_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228888000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the name a Primary_School \u0027model mission high school\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027model mission high school\u0027",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_name_a_Primary_School(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123802000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the name a Secondary_School \u0027model mission high school\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027model mission high school\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_name_a_Secondary_School(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131057000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the name a Intermediate \u0027sri chaitanya\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sri chaitanya\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_name_a_Intermediate(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112312000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the name a Engineering \u0027pulla reddy engineering college\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027pulla reddy engineering college\u0027",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_name_a_Engineering(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123454000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the name a University \u0027\u003cuniversity\u003e\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u003cuniversity\u003e\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_name_a_University(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270332000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the intermediate_Percentage \u0027Intermediate Percentage\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Intermediate Percentage\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.Pages.i_enter_the_intermediate_Percentage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92820000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on gender \u0027\u003cgender\u003e\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027\u003cgender\u003e\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Pages.i_click_on_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222992000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "browser quit",
+            "match": {
+              "location": "steps.Pages.browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login functionality test",
+    "description": "",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/login.feature",
+    "tags": []
+  }
+]
